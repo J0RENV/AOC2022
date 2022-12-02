@@ -1,5 +1,3 @@
-
-
 with open('input.txt') as f: 
     lines=f.readlines()
     #print(lines)
@@ -37,7 +35,7 @@ with open('input.txt') as f:
             else:
                 score += (3+3) #draw 
         else:
-            print("NDN")
+            print("Solution incomplete")
     # print(score)
 # PART 2
         if splitstring[0] == "A":
@@ -62,7 +60,7 @@ with open('input.txt') as f:
             else:
                 score2 += (6+1) #win 
         else:
-            print("NDN")
+            print("Solution incomplete")
     print(score2)
 
 f.close()
