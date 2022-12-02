@@ -6,12 +6,7 @@ with open('input.txt') as f:
 
     for line in lines:
         splitstring = line.split(" ")
-        """
-        if splitstring[1].strip() == "X":
-            print("yes")
-        else:
-            print("no") 
-        """
+
 # PART 1   
         if splitstring[0] == "A":
             if splitstring[1].strip() == "X":
